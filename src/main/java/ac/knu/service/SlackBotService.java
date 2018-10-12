@@ -13,8 +13,6 @@ import org.springframework.stereotype.Service;
 import org.springframework.web.socket.WebSocketSession;
 
 import javax.annotation.PostConstruct;
-import javax.print.DocFlavor;
-import java.util.Date;
 
 @Profile("slack")
 @Service
@@ -22,18 +20,24 @@ import java.util.Date;
 @Slf4j
 public class SlackBotService extends Bot {
 
-    @Autowired
-    private CommenParsingService commenParsingService;
+    private CommandParsingService commandParsingService;
+    private Database database;
+
+    public SlackBotService() {
+        database = new Database();
+        commandParsingService = new CommandParsingService(database);
+    }
 
     @Controller(events = {EventType.DIRECT_MENTION})
     public void onReceiveDM(WebSocketSession session, Event event) {
         String text = event.getText();
         log.info(text);
-        String commandList =  commenParsingService.parsingCommand(text);
 
-        reply(session,event,"=======호열봇=====");
+        System.out.println(event.getText());
 
-        reply(session,event,"============");
+        String result = commandParsingService.parseCommand(event.getText());
+
+        reply(session, event, result);
     }
 
     @Value("${slackBotToken}")
