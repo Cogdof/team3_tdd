@@ -2,6 +2,7 @@ package ac.knu;
 
 import org.junit.Test;
 
+import static ac.knu.Friend.Gender.MALE;
 import static org.junit.Assert.assertTrue;
 
 public class FriendTest {
