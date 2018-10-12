@@ -1,0 +1,6 @@
+slackBotToken: xoxb-454576832772-456115143446-jZGmE9pEeHQMEyf79tbpnEHb
+# slack integrations
+slackApi: https://slack.com/api
+slashCommandToken: TODO
+slackIncomingWebhookUrl: TODO
+logging.level.me.ramswaroop: DEBUG
