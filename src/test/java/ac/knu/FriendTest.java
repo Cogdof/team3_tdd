@@ -1,8 +1,9 @@
 package ac.knu;
 
+import ac.knu.service.Friend;
 import org.junit.Test;
 
-import static ac.knu.Friend.Gender.MALE;
+import static ac.knu.service.Friend.Gender.MALE;
 import static org.junit.Assert.assertTrue;
 
 public class FriendTest {

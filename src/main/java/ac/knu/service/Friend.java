@@ -1,4 +1,4 @@
-package ac.knu;
+package ac.knu.service;
 
 import lombok.Data;
 
