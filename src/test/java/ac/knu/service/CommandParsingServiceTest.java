@@ -13,7 +13,6 @@ public class CommandParsingServiceTest {
     private CommandParsingService commandParsingService;
     private Database database;
 
-
     @Before
     public void setUp(){
         database = new Database();
