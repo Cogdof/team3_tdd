@@ -20,20 +20,21 @@ public class CommandParsingServiceTest {
     }
 
     @Test
-    public void bot_should_return_command_list_when_list_command_request(){
+    public void 봇은_list명령어를_요청받으면_명령어리스트를_반환해야한다(){
         String command = commandParsingService.parseCommand("ID list");
         assertTrue(command.equalsIgnoreCase("time,add"));
     }
 
     @Test
-    public void bot_should_return_current_time_when_time_command_request(){
+    public void 봇은_time명령어를_요청받으면_현재시간을_반환해야한다(){
 
         String command = commandParsingService.parseCommand("ID time");
         assertTrue(command.contains("Current Time is"));
     }
 
+
     @Test
-    public void bot_should_return_null_when_undefined_command_request() {
+    public void 봇은_정의되지않은_명령어를_요청받으면_정의되지않은명령어가요청되었다는_String을_반환해야한다() {
         String result = commandParsingService.parseCommand("ID hhhh");
         assertTrue(result.equalsIgnoreCase("undefined command requested"));
     }
