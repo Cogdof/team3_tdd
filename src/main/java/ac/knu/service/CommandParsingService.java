@@ -60,7 +60,7 @@ public class CommandParsingService {
         }
     }
     public int search(String name){
-        for(int i=1;i<commandList.size();i++){
+        for(int i=0;i<commandList.size();i++){
             if(name.equals(commandList.get(i))){
                 return i;
             }
