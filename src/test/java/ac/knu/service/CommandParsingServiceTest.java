@@ -32,6 +32,11 @@ public class CommandParsingServiceTest {
         assertTrue(command.contains("Current Time is"));
     }
 
+    @Test
+    public void 봇은_remove명령어와_이름을_요청받으면_해당이름을_가진_친구를_삭제해야한다(){
+        String command = commandParsingService.parseCommand("ID remove 권희수");
+    }
+
 
     @Test
     public void 봇은_정의되지않은_명령어를_요청받으면_정의되지않은명령어가요청되었다는_String을_반환해야한다() {
