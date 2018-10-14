@@ -27,7 +27,6 @@ public class CommandParsingServiceTest {
 
     @Test
     public void 봇은_time명령어를_요청받으면_현재시간을_반환해야한다(){
-
         String command = commandParsingService.parseCommand("ID time");
         assertTrue(command.contains("Current Time is"));
     }
@@ -35,6 +34,8 @@ public class CommandParsingServiceTest {
     @Test
     public void 봇은_remove명령어와_이름을_요청받으면_해당이름을_가진_친구를_삭제해야한다(){
         String command = commandParsingService.parseCommand("ID remove 권희수");
+        assertTrue(command.equalsIgnoreCase("remove success"));
+        //assertTrue(commandParsingService.search() == -1);
     }
 
 
