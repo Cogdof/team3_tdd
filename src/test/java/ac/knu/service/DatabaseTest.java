@@ -10,13 +10,23 @@ public class DatabaseTest {
     @Before
     public void setUp(){
         database = new Database();
+
     }
 
     // find method tests..
     @Test
-    public void 봇은_find_친구이름_명령어를_요청받았을때_친구이름이_리스트에있으면_친구이름을_반환해야한다(){
+    public void find_메소드를_친구이름으로_호출할때_친구이름이_리스트에있으면_해당_친구의_객체를_반환해야한다(){
+
+        Friend toBeAddedFriend = new Friend("근용", 16, Friend.Gender.MALE);
+        database.add(toBeAddedFriend);
+
+        Friend returnedFriend= database.find("근용");
+
+
+
 
     }
+
 
     @Test
     public void 봇은_find_친구이름_명령어를_요청받았을때_친구이름이_리스트에없으면_NULL을_반환해야한다(){
@@ -25,6 +35,7 @@ public class DatabaseTest {
 
     @Test
     public void 봇은_list_명령어를_요청받았을때_친구이름들을_반환해야한다(){
+
     }
 
     @Test

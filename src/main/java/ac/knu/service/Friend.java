@@ -18,4 +18,8 @@ public class Friend {
     public enum Gender{
         MALE, FEMALE
     }
+
+    public boolean isEqual(Friend willBeComparedFriend){
+        return (this.name == willBeComparedFriend.name && this.age == willBeComparedFriend.age && this.gender == willBeComparedFriend.gender);
+    }
 }

@@ -16,7 +16,6 @@ public class CommandParsingServiceTest {
     public void setUp(){
         database = new Database();
         commandParsingService = new CommandParsingService(database);
-
     }
 
     @Test
