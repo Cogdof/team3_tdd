@@ -26,10 +26,7 @@ public class CommandParsingService {
         String name = commandSplitList[2];
         String result;
 
-        if(command.equalsIgnoreCase("list")) {
-           result = list();
-        }
-        else if(command.equalsIgnoreCase("time")) {
+        if(command.equalsIgnoreCase("time")) {
             result = "Current Time is :" + new Date().toString();
         }
         else if(command.equalsIgnoreCase("remove")) {
@@ -40,14 +37,7 @@ public class CommandParsingService {
         }
         return result;
     }
-    public String list(){
-        String result = "";
-        for(int i=0; i<commandList.size(); i++){
-            result = result + commandList.get(i) + ",";
-        }
-        result = result.substring(0, result.lastIndexOf(","));
-        return result;
-    }
+
     public String remove(String name){
         if(search(name) >=0) {
             for(int i=search(name)+1;i<commandList.size();i++){
