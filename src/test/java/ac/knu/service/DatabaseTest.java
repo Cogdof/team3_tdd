@@ -64,4 +64,24 @@ public class DatabaseTest {
     public void 봇은_list_명령어를_요청받았을때_친구가_0명이라면_대상이_존재하지않음을_반환해야한다(){
 
     }
+    @Test
+    public void Add_명령어를_입력했을때__데이터베이스에_정상적으로_입력되었다면_key값이_존재한다(){
+        Friend newFriend =  new Friend("김씨",16, Friend.Gender.MALE);
+        database.add(newFriend);
+        assertTrue(database.getDatabase().containsKey(newFriend.getName()));
+    }
+
+    @Test
+    public void Friend가_10명_즉_MAX일때_더이상_추가되지_않아야하고_특정메세지를_리턴한다(){
+
+    }
+    @Test
+    public void Add_명령어를_입력했을떄_같은이름이_존재하면_입력받지않고_특정메세지를_리턴한다(){
+
+    }
+
+
+
+
+
 }
