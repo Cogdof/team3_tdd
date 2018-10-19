@@ -37,10 +37,5 @@ public class CommandParsingServiceTest {
         assertTrue(result.equalsIgnoreCase("undefined command requested"));
     }
 
-    @Test
-    public void 봇은_list명령어를_요청받으면_친구목록을_반환해야한다(){
-        String command = commandParsingService.parseCommand("ID List");
-        //add 3개가 들어있다 가정
-        assertTrue(command.equalsIgnoreCase("신홍\n호열\n희수\n근용"));
-    }
+
 }
