@@ -19,7 +19,7 @@ public class Friend {
         MALE, FEMALE
     }
 
-    public boolean isEqual(Friend willBeComparedFriend){
+    public boolean equals(Friend willBeComparedFriend){
         return (this.name == willBeComparedFriend.name && this.age == willBeComparedFriend.age && this.gender == willBeComparedFriend.gender);
     }
 }

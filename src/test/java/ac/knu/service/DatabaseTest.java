@@ -3,6 +3,8 @@ package ac.knu.service;
 import org.junit.Before;
 import org.junit.Test;
 
+import static org.junit.Assert.assertTrue;
+
 public class DatabaseTest {
 
     private Database database;
@@ -17,10 +19,10 @@ public class DatabaseTest {
     @Test
     public void find_메소드를_친구이름으로_호출할때_친구이름이_리스트에있으면_해당_친구의_객체를_반환해야한다(){
 
-        Friend toBeAddedFriend = new Friend("근용", 16, Friend.Gender.MALE);
-        database.add(toBeAddedFriend);
-
+        Friend willBeAddedFriend = new Friend("근용", 16, Friend.Gender.MALE);
+        database.add(willBeAddedFriend );
         Friend returnedFriend= database.find("근용");
+        assertTrue(willBeFriend.equals(returnedFriend));
 
 
 
