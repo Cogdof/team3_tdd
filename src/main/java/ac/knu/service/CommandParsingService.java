@@ -3,6 +3,7 @@ package ac.knu.service;
 import org.springframework.stereotype.Service;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.Date;
 import java.util.List;
 
@@ -30,8 +31,20 @@ public class CommandParsingService {
         }
         switch(command) {
             case "add" :
-//                result = database.add();
-//                break;
+                int age = Integer.parseInt(commandSplitList[3]);
+                String Male[]= {"남자", "남" ,"Male", "Men", "male", "man"};
+                Friend.Gender gender;
+                if(Arrays.asList(Male).contains(commandSplitList[4])){
+                    gender = Friend.Gender.MALE;
+                }
+                else{
+                    gender = Friend.Gender.FEMALE;
+                }
+                Friend newFriend = new Friend(name,age,gender);
+                database.add(newFriend);
+
+                result = "Add complete";
+                 break;
 
             case "search" :
 //                result = database.search(name);

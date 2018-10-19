@@ -39,6 +39,8 @@ public class Database {
 
         return result;
     }
+
+    public void add(Friend newFriend) {database.put(newFriend.getName(), newFriend);   }
 }
 
 
