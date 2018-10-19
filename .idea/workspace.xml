@@ -2,41 +2,203 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2e2f155e-35d3-47f3-86b6-3a03cd958c50" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ac/knu/service/CommandParsingService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ac/knu/service/CommandParsingService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ac/knu/service/Database.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ac/knu/service/Database.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ac/knu/service/Friend.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ac/knu/service/Friend.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ac/knu/service/CommandParsingServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ac/knu/service/CommandParsingServiceTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ac/knu/service/DatabaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ac/knu/service/DatabaseTest.java" afterDir="false" />
     </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FUSProjectUsageTrigger">
-    <session id="-1212839063">
-      <usages-collector id="statistics.file.extensions.open">
+    <session id="790407231">
+      <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="xml" value="2" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.open">
-        <counts>
-          <entry key="XML" value="2" />
+          <entry key="project.closed" value="1" />
+          <entry key="project.open.time.13" value="1" />
+          <entry key="project.open.time.2" value="1" />
+          <entry key="project.open.time.5" value="1" />
+          <entry key="project.opened" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="299" />
+          <entry key="java" value="393" />
+          <entry key="xml" value="4" />
+          <entry key="yml" value="10" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="299" />
+          <entry key="JAVA" value="393" />
+          <entry key="XML" value="4" />
+          <entry key="YAML" value="10" />
         </counts>
       </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="java" value="2" />
+          <entry key="yml" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="JAVA" value="2" />
+          <entry key="YAML" value="1" />
+        </counts>
+      </usages-collector>
+    </session>
+    <session id="-1229546186">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="5" />
+          <entry key="project.open.time.0" value="2" />
+          <entry key="project.open.time.34" value="1" />
+          <entry key="project.open.time.7" value="2" />
+          <entry key="project.opened" value="5" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="java" value="1693" />
+          <entry key="yml" value="3" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="JAVA" value="1693" />
+          <entry key="YAML" value="3" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="java" value="4" />
+          <entry key="xml" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="JAVA" value="4" />
+          <entry key="XML" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.vcs.git.usages" />
+    </session>
+    <session id="178641706">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="2" />
+          <entry key="project.open.time.0" value="2" />
+          <entry key="project.open.time.1" value="3" />
+          <entry key="project.opened" value="5" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="java" value="9" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="JAVA" value="9" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="dummy" value="5" />
+          <entry key="java" value="1313" />
+          <entry key="txt" value="398" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="JAVA" value="1313" />
+          <entry key="PLAIN_TEXT" value="403" />
+        </counts>
+      </usages-collector>
+    </session>
+    <session id="-1212839063">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.open.time.2" value="1" />
+          <entry key="project.open.time.8" value="1" />
+          <entry key="project.opened" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="java" value="685" />
+          <entry key="txt" value="68" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="JAVA" value="685" />
+          <entry key="PLAIN_TEXT" value="68" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open" />
+      <usages-collector id="statistics.file.extensions.open" />
+      <usages-collector id="statistics.vcs.git.usages" />
+    </session>
+    <session id="-2021373773">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="1" />
+          <entry key="project.open.time.7" value="1" />
+          <entry key="project.open.time.8" value="1" />
+          <entry key="project.opened" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="java" value="498" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="JAVA" value="498" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="java" value="1" />
+          <entry key="xml" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="JAVA" value="1" />
+          <entry key="XML" value="1" />
+        </counts>
+      </usages-collector>
+    </session>
+    <session id="-155235917">
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="java" value="715" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="JAVA" value="715" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="java" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="JAVA" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.vcs.git.usages" />
+      <usages-collector id="statistics.lifecycle.project" />
     </session>
   </component>
   <component name="FavoritesManager">
@@ -47,8 +209,32 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/ac/knu/service/CommandParsingServiceTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="179">
-              <caret line="29" column="8" selection-start-line="29" selection-start-column="8" selection-end-line="29" selection-end-column="63" />
+            <state relative-caret-position="266">
+              <caret line="23" column="47" selection-start-line="23" selection-start-column="47" selection-end-line="23" selection-end-column="47" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/ac/knu/service/DatabaseTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="570">
+              <caret line="36" column="47" selection-start-line="36" selection-start-column="47" selection-end-line="36" selection-end-column="47" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/ac/knu/service/CommandParsingService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="168">
+              <caret line="40" column="25" selection-start-line="40" selection-start-column="25" selection-end-line="40" selection-end-column="25" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -59,27 +245,22 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/ac/knu/service/Database.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="234">
-              <caret line="25" column="25" selection-start-line="25" selection-start-column="25" selection-end-line="25" selection-end-column="25" />
+            <state relative-caret-position="931">
+              <caret line="55" selection-start-line="55" selection-end-line="55" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#316#317#0" expanded="true" />
                 <element signature="e#358#359#0" expanded="true" />
-                <element signature="e#626#627#0" expanded="true" />
-                <element signature="e#675#676#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/ac/knu/service/CommandParsingService.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/ac/knu/service/Friend.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="228">
-              <caret line="42" column="28" selection-start-line="42" selection-start-column="28" selection-end-line="42" selection-end-column="28" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="209">
+              <caret line="11" column="52" selection-start-line="11" selection-start-column="52" selection-end-line="11" selection-end-column="52" />
             </state>
           </provider>
         </entry>
@@ -87,47 +268,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/ac/knu/service/FriendTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="171">
-              <caret line="12" selection-start-line="12" selection-end-line="12" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/ac/knu/SlackBotApplication.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="133">
-              <caret line="11" column="19" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/ac/knu/service/DatabaseTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="291">
-              <caret line="50" column="5" lean-forward="true" selection-start-line="50" selection-start-column="5" selection-end-line="50" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="4503">
-              <caret line="237" column="14" selection-start-line="237" selection-start-column="14" selection-end-line="237" selection-end-column="14" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/ac/knu/service/SlackBotService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="266">
-              <caret line="26" column="34" selection-start-line="26" selection-start-column="34" selection-end-line="26" selection-end-column="34" />
+            <state relative-caret-position="209">
+              <caret line="15" column="35" selection-start-line="15" selection-start-column="35" selection-end-line="15" selection-end-column="35" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -144,19 +286,48 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>parse</find>
+      <find>time</find>
+    </findStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/.idea/workspace.xml" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/ac/knu/SlackBotApplication.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ac/knu/service/CommenParsingServiceTest.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/src/test/java/ac/knu/CommenParsingServiceTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ac/knu/service/CommenParsingService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ac/knu/Friend.java" />
+        <option value="$PROJECT_DIR$/src/test/java/ac/knu/FriendTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/ac/knu/service/CommenParsingServiceTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/ac/knu/service/FriendTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ac/knu/service/SlackBotService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ac/knu/service/Friend.java" />
         <option value="$PROJECT_DIR$/src/test/java/ac/knu/service/CommandParsingServiceTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ac/knu/service/CommandParsingService.java" />
         <option value="$PROJECT_DIR$/src/main/java/ac/knu/service/Database.java" />
         <option value="$PROJECT_DIR$/src/test/java/ac/knu/service/DatabaseTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ac/knu/service/CommandParsingService.java" />
       </list>
     </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-12" />
+    <option name="width" value="981" />
+    <option name="height" value="1032" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -165,7 +336,6 @@
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -176,12 +346,37 @@
             <path>
               <item name="team3_tdd" type="b2602c69:ProjectViewProjectNode" />
               <item name="team3_tdd" type="462c0819:PsiDirectoryNode" />
-              <item name=".idea" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="team3_tdd" type="b2602c69:ProjectViewProjectNode" />
               <item name="team3_tdd" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="team3_tdd" type="b2602c69:ProjectViewProjectNode" />
+              <item name="team3_tdd" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="team3_tdd" type="b2602c69:ProjectViewProjectNode" />
+              <item name="team3_tdd" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="knu" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="team3_tdd" type="b2602c69:ProjectViewProjectNode" />
+              <item name="team3_tdd" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="knu" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="team3_tdd" type="b2602c69:ProjectViewProjectNode" />
@@ -208,10 +403,27 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1539939669102" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1539938577118" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.annotationProcessors" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="ac.knu.service" />
+      <recent name="ac.knu" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="ac.knu" />
+      <recent name="ac.knu.service" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -225,7 +437,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.DatabaseTest.봇은_remove명령어를_요청받으면_친구가_있는지_찾고_있으면_삭제해야한다">
+  <component name="RunManager" selected="JUnit.All in slackbot">
     <configuration name="All in slackbot" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="slackbot" />
       <option name="PACKAGE_NAME" value="" />
@@ -234,8 +446,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CommandParsingServiceTest.봇은_remove명령어와_이름을_요청받으면_해당이름을_가진_친구를_삭제해야한다" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="slackbot" />
+    <configuration name="CommandParsingServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="3Team_TDD" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="ac.knu.service.*" />
@@ -244,8 +456,20 @@
       </extension>
       <option name="PACKAGE_NAME" value="ac.knu.service" />
       <option name="MAIN_CLASS_NAME" value="ac.knu.service.CommandParsingServiceTest" />
-      <option name="METHOD_NAME" value="봇은_remove명령어와_이름을_요청받으면_해당이름을_가진_친구를_삭제해야한다" />
-      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DatabaseTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="3Team_TDD" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ac.knu.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ac.knu.service" />
+      <option name="MAIN_CLASS_NAME" value="ac.knu.service.DatabaseTest" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -266,22 +490,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DatabaseTest.봇은_remove명령어를_요청받으면_친구가_있는지_찾고_있으면_삭제해야한다" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="slackbot" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ac.knu.service.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="ac.knu.service" />
-      <option name="MAIN_CLASS_NAME" value="ac.knu.service.DatabaseTest" />
-      <option name="METHOD_NAME" value="봇은_remove명령어를_요청받으면_친구가_있는지_찾고_있으면_삭제해야한다" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="ac.knu.service in slackbot" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="slackbot" />
       <extension name="coverage">
@@ -297,19 +505,19 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="JUnit.CommandParsingServiceTest" />
+      <item itemvalue="JUnit.DatabaseTest" />
+      <item itemvalue="JUnit.DatabaseTest.봇은_list명령어를_요청받으면_친구목록을_반환해야한다" />
       <item itemvalue="JUnit.ac.knu.service in slackbot" />
       <item itemvalue="JUnit.All in slackbot" />
-      <item itemvalue="JUnit.DatabaseTest.봇은_list명령어를_요청받으면_친구목록을_반환해야한다" />
-      <item itemvalue="JUnit.CommandParsingServiceTest.봇은_remove명령어와_이름을_요청받으면_해당이름을_가진_친구를_삭제해야한다" />
-      <item itemvalue="JUnit.DatabaseTest.봇은_remove명령어를_요청받으면_친구가_있는지_찾고_있으면_삭제해야한다" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.DatabaseTest.봇은_remove명령어를_요청받으면_친구가_있는지_찾고_있으면_삭제해야한다" />
-        <item itemvalue="JUnit.CommandParsingServiceTest.봇은_remove명령어와_이름을_요청받으면_해당이름을_가진_친구를_삭제해야한다" />
-        <item itemvalue="JUnit.DatabaseTest.봇은_list명령어를_요청받으면_친구목록을_반환해야한다" />
         <item itemvalue="JUnit.All in slackbot" />
+        <item itemvalue="JUnit.DatabaseTest" />
         <item itemvalue="JUnit.ac.knu.service in slackbot" />
+        <item itemvalue="JUnit.DatabaseTest.봇은_list명령어를_요청받으면_친구목록을_반환해야한다" />
+        <item itemvalue="JUnit.CommandParsingServiceTest" />
       </list>
     </recent_temporary>
   </component>
@@ -380,28 +588,69 @@
       <option name="project" value="LOCAL" />
       <updated>1539542351569</updated>
     </task>
-    <task id="LOCAL-00009" summary="Update CommandPasingService.java&#10;search method : i start 0">
-      <created>1539542645473</created>
+    <task id="LOCAL-00009" summary="added isEqual() in Friend.java for comparing purpose">
+      <created>1539935960564</created>
       <option name="number" value="00009" />
       <option name="presentableId" value="LOCAL-00009" />
       <option name="project" value="LOCAL" />
-      <updated>1539542645473</updated>
+      <updated>1539935960564</updated>
     </task>
+    <task id="LOCAL-00010" summary="edited parseCommand() in CommandParsingService.java">
+      <created>1539938412222</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1539938412222</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="DatabaseTest_봇은_list명령어를_요청받으면_친구목록을_반환해야한다 - 2018.10.19 at 17h 45m 32s.xml">
-      <configuration name="DatabaseTest.봇은_list명령어를_요청받으면_친구목록을_반환해야한다" configurationId="JUnit" />
+    <history-entry file="All_in_slackbot - 2018.10.13 at 21h 11m 05s.xml">
+      <configuration name="All in slackbot" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CommandParsingServiceTest_봇은_remove명령어와_이름을_요청받으면_해당이름을_가진_친구를_삭제해야한다 - 2018.10.19 at 17h 52m 11s.xml">
-      <configuration name="CommandParsingServiceTest.봇은_remove명령어와_이름을_요청받으면_해당이름을_가진_친구를_삭제해야한다" configurationId="JUnit" />
+    <history-entry file="DatabaseTest_봇은_find_친구이름_명령어를_요청받았을때_친구이름이_리스트에있으면_친구이름을_반환해야한다 - 2018.10.19 at 12h 18m 06s.xml">
+      <configuration name="DatabaseTest.봇은_find_친구이름_명령어를_요청받았을때_친구이름이_리스트에있으면_친구이름을_반환해야한다" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CommandParsingServiceTest - 2018.10.19 at 12h 18m 14s.xml">
+      <configuration name="CommandParsingServiceTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DatabaseTest - 2018.10.19 at 12h 18m 22s.xml">
+      <configuration name="DatabaseTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FriendTest - 2018.10.19 at 12h 18m 41s.xml">
+      <configuration name="FriendTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CommandParsingServiceTest - 2018.10.19 at 12h 19m 51s.xml">
+      <configuration name="CommandParsingServiceTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ac_knu_service_in_slackbot - 2018.10.19 at 17h 27m 44s.xml">
+      <configuration name="ac.knu.service in slackbot" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DatabaseTest - 2018.10.19 at 17h 28m 31s.xml">
+      <configuration name="DatabaseTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DatabaseTest - 2018.10.19 at 17h 29m 39s.xml">
+      <configuration name="DatabaseTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="All_in_slackbot - 2018.10.19 at 17h 41m 24s.xml">
+      <configuration name="All in slackbot" configurationId="JUnit" />
     </history-entry>
   </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49838188" visible="true" weight="0.1633888" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49838188" visible="true" weight="0.27206478" />
       <window_info id="Structure" order="1" sideWeight="0.50161815" side_tool="true" weight="0.20202559" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -411,15 +660,15 @@
       <window_info anchor="bottom" id="Inspection Results" order="0" weight="0.329718" />
       <window_info anchor="bottom" id="Message" order="1" />
       <window_info anchor="bottom" id="Find" order="2" weight="0.329718" />
-      <window_info active="true" anchor="bottom" id="Run" order="3" visible="true" weight="0.3114754" />
+      <window_info active="true" anchor="bottom" id="Run" order="3" visible="true" weight="0.30659536" />
       <window_info anchor="bottom" id="Debug" order="4" weight="0.3991323" />
       <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="7" weight="0.329718" />
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.2527115" />
-      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="10" weight="0.116178066" />
-      <window_info anchor="bottom" id="Messages" order="11" weight="0.32786885" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50053304" side_tool="true" weight="0.32790446" />
+      <window_info anchor="bottom" id="Version Control" order="10" weight="0.28835228" />
+      <window_info anchor="bottom" id="Messages" order="11" sideWeight="0.49946696" weight="0.32976827" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -443,21 +692,61 @@
     <MESSAGE value="modified CommandParsingServiceTest.java's method name English into Korean" />
     <MESSAGE value="RemoveTest coding" />
     <MESSAGE value="create remove method and list method and search method" />
-    <MESSAGE value="Update CommandPasingService.java&#10;search method : i start 0" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update CommandPasingService.java&#10;search method : i start 0" />
+    <MESSAGE value="added isEqual() in Friend.java for comparing purpose" />
+    <MESSAGE value="edited parseCommand() in CommandParsingService.java" />
+    <option name="LAST_COMMIT_MESSAGE" value="edited parseCommand() in CommandParsingService.java" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4503">
-          <caret line="237" column="14" selection-start-line="237" selection-start-column="14" selection-end-line="237" selection-end-column="14" />
+        <state relative-caret-position="-1881" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="70" selection-start-column="70" selection-end-column="70" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ac/knu/Friend.java" />
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="627">
+          <caret line="33" column="48" selection-start-line="33" selection-start-column="48" selection-end-line="33" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ac/knu/SlackBotApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ac/knu/service/Database.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="931">
+          <caret line="55" selection-start-line="55" selection-end-line="55" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#316#317#0" expanded="true" />
+            <element signature="e#358#359#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ac/knu/service/Friend.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" column="52" selection-start-line="11" selection-start-column="52" selection-end-line="11" selection-end-column="52" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/ac/knu/service/FriendTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        <state relative-caret-position="209">
+          <caret line="15" column="35" selection-start-line="15" selection-start-column="35" selection-end-line="15" selection-end-column="35" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -466,51 +755,119 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/ac/knu/service/CommandParsingServiceTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="179">
-          <caret line="29" column="8" selection-start-line="29" selection-start-column="8" selection-end-line="29" selection-end-column="63" />
+        <state relative-caret-position="266">
+          <caret line="23" column="47" selection-start-line="23" selection-start-column="47" selection-end-line="23" selection-end-column="47" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ac/knu/service/Database.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/ac/knu/service/SlackBotService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="25" column="25" selection-start-line="25" selection-start-column="25" selection-end-line="25" selection-end-column="25" />
+        <state relative-caret-position="190">
+          <caret line="19" column="6" lean-forward="true" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="6" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#316#317#0" expanded="true" />
-            <element signature="e#358#359#0" expanded="true" />
-            <element signature="e#626#627#0" expanded="true" />
-            <element signature="e#675#676#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ac/knu/service/DatabaseTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="570">
+          <caret line="36" column="47" selection-start-line="36" selection-start-column="47" selection-end-line="36" selection-end-column="47" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ac/knu/service/CommandParsingService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="42" column="28" selection-start-line="42" selection-start-column="28" selection-end-line="42" selection-end-column="28" />
+        <state relative-caret-position="168">
+          <caret line="40" column="25" selection-start-line="40" selection-start-column="25" selection-end-line="40" selection-end-column="25" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ac/knu/SlackBotApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="11" column="19" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/ac/knu/service/DatabaseTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="291">
-          <caret line="50" column="5" lean-forward="true" selection-start-line="50" selection-start-column="5" selection-end-line="50" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>slackbot</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: ch.qos.logback:logback-classic:1.2.3</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
   </component>
 </project>

@@ -23,7 +23,6 @@ public class CommandParsingService {
         String[] commandSplitList = command.split(" ");
         command = commandSplitList[1];
 
-        String name = commandSplitList[2];
         String result = "";
 
         switch(command) {
@@ -40,10 +39,10 @@ public class CommandParsingService {
                 break;
 
             case "list" :
-                result = "Current Time is :" + new Date().toString();
                 break;
 
             case "time" :
+                result = "Current Time is :" + new Date().toString();
                 break;
 
             default :
