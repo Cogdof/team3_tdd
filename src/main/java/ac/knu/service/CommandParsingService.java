@@ -23,16 +23,19 @@ public class CommandParsingService {
         String[] commandSplitList = command.split(" ");
         command = commandSplitList[1];
 
+        String name = "";
         String result = "";
-
+        if (commandSplitList.length >= 2) {
+            name = commandSplitList[2];
+        }
         switch(command) {
             case "add" :
 //                result = database.add();
-                break;
+//                break;
 
             case "search" :
 //                result = database.search(name);
-                break;
+//               break;
 
             case "remove" :
                 if(database.remove(name)) {
@@ -44,7 +47,7 @@ public class CommandParsingService {
                 break;
 
             case "list" :
-                break;
+//                break;
 
             case "time" :
                 result = "Current Time is :" + new Date().toString();

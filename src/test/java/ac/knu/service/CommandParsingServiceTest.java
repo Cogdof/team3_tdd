@@ -26,7 +26,11 @@ public class CommandParsingServiceTest {
 
     @Test
     public void 봇은_remove명령어와_이름을_요청받으면_해당이름을_가진_친구를_삭제해야한다(){
-        String command = commandParsingService.parseCommand("ID remove 권희수");
+        database.getDatabase().put("신홍",new Friend("신홍",15, Friend.Gender.MALE));
+        database.getDatabase().put("호열",new Friend("호열",15, Friend.Gender.MALE));
+        database.getDatabase().put("희수",new Friend("희수",15, Friend.Gender.MALE));
+        database.getDatabase().put("근용",new Friend("근용",15, Friend.Gender.MALE));
+        String command = commandParsingService.parseCommand("ID remove 희수");
         assertTrue(command.equalsIgnoreCase("remove success"));
     }
 
