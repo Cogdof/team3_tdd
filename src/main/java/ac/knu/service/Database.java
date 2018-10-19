@@ -18,16 +18,13 @@ public class Database {
     // 메소드 추가
 
     public boolean remove(String name){
-        if(search(name)) {
+        if(database.containsKey(name)) {
             database.remove(name);
             return true;
         }
         else{
             return false;
         }
-    }
-    public boolean search(String name){
-        return database.containsKey(name);
     }
     public String List() {
         friendNameItr = getDatabase().keySet().iterator();
