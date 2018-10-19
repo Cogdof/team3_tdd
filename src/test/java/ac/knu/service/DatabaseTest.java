@@ -3,6 +3,7 @@ package ac.knu.service;
 import org.junit.Before;
 import org.junit.Test;
 
+import static org.junit.Assert.assertFalse;
 import static org.junit.Assert.assertTrue;
 
 public class DatabaseTest {
@@ -35,6 +36,18 @@ public class DatabaseTest {
 
         //add 3개가 들어있다 가정
         assertTrue(listString.equalsIgnoreCase("신홍\n호열\n희수\n근용\n"));
+    }
+    @Test
+    public void 봇은_remove명령어를_요청받으면_친구가_있는지_찾고_있으면_삭제해야한다(){
+        database.getDatabase().put("신홍",new Friend("신홍",15, Friend.Gender.MALE));
+        database.getDatabase().put("호열",new Friend("호열",15, Friend.Gender.MALE));
+        database.getDatabase().put("희수",new Friend("희수",15, Friend.Gender.MALE));
+        database.getDatabase().put("근용",new Friend("근용",15, Friend.Gender.MALE));
+        boolean removeSuccess = database.remove("신홍");
+        boolean removeFail = database.remove("신영");
+
+        assertTrue(removeSuccess);
+        assertFalse(removeFail);
     }
 
     @Test

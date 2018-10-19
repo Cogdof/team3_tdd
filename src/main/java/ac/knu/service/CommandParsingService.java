@@ -35,7 +35,12 @@ public class CommandParsingService {
                 break;
 
             case "remove" :
-//                result = database.remove(name);
+                if(database.remove(name)) {
+                    result = "remove success";
+                }
+                else{
+                    result = "Not found name, remove fail";
+                }
                 break;
 
             case "list" :
