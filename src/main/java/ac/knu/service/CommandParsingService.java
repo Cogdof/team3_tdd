@@ -24,47 +24,33 @@ public class CommandParsingService {
         command = commandSplitList[1];
 
         String name = commandSplitList[2];
-        String result;
-
-        if(command.equalsIgnoreCase("list")) {
-           result = list();
-        }
-        else if(command.equalsIgnoreCase("time")) {
-            result = "Current Time is :" + new Date().toString();
-        }
-        else if(command.equalsIgnoreCase("remove")) {
-            result = remove(name);
-        }
-        else{
-            result = "undefined command requested";
-        }
-        return result;
-    }
-    public String list(){
         String result = "";
-        for(int i=0; i<commandList.size(); i++){
-            result = result + commandList.get(i) + ",";
-        }
-        result = result.substring(0, result.lastIndexOf(","));
+
+        switch(command) {
+            case "add" :
+//                result = database.add();
+                break;
+
+            case "search" :
+//                result = database.search(name);
+                break;
+
+            case "remove" :
+//                result = database.remove(name);
+                break;
+
+            case "list" :
+                result = "Current Time is :" + new Date().toString();
+                break;
+
+            case "time" :
+                break;
+
+            default :
+                result = "undefined command requested";
+                break;
+            }
+
         return result;
-    }
-    public String remove(String name){
-        if(search(name) >=0) {
-            for(int i=search(name)+1;i<commandList.size();i++){
-                commandList.set(i-1,commandList.get(i));
-            }
-            return "remove success";
-        }
-        else{
-            return "Not found name, remove fail";
-        }
-    }
-    public int search(String name){
-        for(int i=0;i<commandList.size();i++){
-            if(name.equals(commandList.get(i))){
-                return i;
-            }
-        }
-        return -1;
     }
 }
