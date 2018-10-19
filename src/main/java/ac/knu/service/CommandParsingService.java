@@ -23,7 +23,6 @@ public class CommandParsingService {
         String[] commandSplitList = command.split(" ");
         command = commandSplitList[1];
 
-        String name = commandSplitList[2];
         String result = "";
 
         switch(command) {
