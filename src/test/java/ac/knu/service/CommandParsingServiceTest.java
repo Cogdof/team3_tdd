@@ -4,8 +4,6 @@ package ac.knu.service;
 import org.junit.Before;
 import org.junit.Test;
 
-import java.util.Date;
-
 import static org.junit.Assert.assertTrue;
 
 public class CommandParsingServiceTest {
@@ -26,12 +24,23 @@ public class CommandParsingServiceTest {
 
     @Test
     public void 봇은_remove명령어와_이름을_요청받으면_해당이름을_가진_친구를_삭제해야한다(){
-        database.getDatabase().put("신홍",new Friend("신홍",15, Friend.Gender.MALE));
-        database.getDatabase().put("호열",new Friend("호열",15, Friend.Gender.MALE));
-        database.getDatabase().put("희수",new Friend("희수",15, Friend.Gender.MALE));
-        database.getDatabase().put("근용",new Friend("근용",15, Friend.Gender.MALE));
+        database.getFriendDatabase().put("신홍",new Friend("신홍",15, Friend.Gender.MALE));
+        database.getFriendDatabase().put("호열",new Friend("호열",15, Friend.Gender.MALE));
+        database.getFriendDatabase().put("희수",new Friend("희수",15, Friend.Gender.MALE));
+        database.getFriendDatabase().put("근용",new Friend("근용",15, Friend.Gender.MALE));
         String command = commandParsingService.parseCommand("ID remove 희수");
         assertTrue(command.equalsIgnoreCase("remove success"));
+    }
+
+    @Test
+    public void 봇은_list명령어를_요청받으면_친구목록을_보여주어야한다(){
+        database.add(new Friend("신홍",15, Friend.Gender.MALE));
+        database.add(new Friend("호열",16, Friend.Gender.MALE));
+        database.add(new Friend("희수",17, Friend.Gender.FEMALE));
+        database.add(new Friend("근용",18, Friend.Gender.MALE));
+        String listString = database.friendList();
+
+        assertTrue(listString.equalsIgnoreCase("신홍\n호열\n희수\n근용\n"));
     }
 
     @Test

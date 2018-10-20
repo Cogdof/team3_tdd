@@ -1,13 +1,10 @@
 package ac.knu.service;
 
-import org.springframework.stereotype.Service;
-
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Date;
 import java.util.List;
 
-@Service
 public class CommandParsingService {
 
     private List<String> commandList = new ArrayList<>();
@@ -26,29 +23,30 @@ public class CommandParsingService {
 
         String name = "";
         String result = "";
-        if (commandSplitList.length >= 2) {
+        if (commandSplitList.length >= 3) {
             name = commandSplitList[2];
         }
+
         switch(command) {
             case "add" :
                 int age = Integer.parseInt(commandSplitList[3]);
                 String Male[]= {"남자", "남" ,"Male", "Men", "male", "man"};
-                Friend.Gender gender;
+                String female[] = {"여자", "여", "Female","Woman", "women", "female"};
+               
+                Friend.Gender gender = null;
+                
                 if(Arrays.asList(Male).contains(commandSplitList[4])){
                     gender = Friend.Gender.MALE;
                 }
-                else{
+                else if(Arrays.asList(female).contains(commandSplitList[4])){
                     gender = Friend.Gender.FEMALE;
                 }
+
                 Friend newFriend = new Friend(name,age,gender);
                 database.add(newFriend);
 
                 result = "Add complete";
-                 break;
-
-            case "search" :
-//                result = database.search(name);
-//               break;
+                break;
 
             case "remove" :
                 if(database.remove(name)) {
@@ -60,7 +58,8 @@ public class CommandParsingService {
                 break;
 
             case "list" :
-//                break;
+                result = database.friendList();
+                break;
 
             case "time" :
                 result = "Current Time is :" + new Date().toString();
