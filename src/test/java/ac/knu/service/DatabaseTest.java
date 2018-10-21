@@ -34,7 +34,14 @@ public class DatabaseTest {
 
     @Test
     public void Friend가_10명_즉_MAX일때_더이상_추가되지_않아야하고_특정메세지를_리턴한다(){
-
+        Friend newFriend;
+        for(int i=0; i<10; i++){
+            newFriend =  new Friend("a"+i,10, Friend.Gender.MALE);
+            database.add(newFriend);
+        }
+        newFriend =  new Friend("11명째",11, Friend.Gender.MALE);
+        String result = database.add(newFriend);
+        assertTrue(result.equals("친구를 더이상 추가할 수 없습니다."));
     }
     @Test
     public void Add_명령어를_입력했을떄_같은이름이_존재하면_입력받지않고_특정메세지를_리턴한다(){
