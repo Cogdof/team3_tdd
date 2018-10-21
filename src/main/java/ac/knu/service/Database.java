@@ -43,8 +43,18 @@ public class Database {
         return result;
     }
 
-    public void add(Friend newFriend) {
-        friendDatabase.put(newFriend.getName(), newFriend);   }
+    public String add(Friend newFriend) {
+
+        if(friendDatabase.containsKey(newFriend.getName())){
+            return "이미 존재하는 사용자 입니다.";
+        }
+        else{
+            friendDatabase.put(newFriend.getName(), newFriend);
+            return "";
+        }
+
+
+    }
 }
 
 

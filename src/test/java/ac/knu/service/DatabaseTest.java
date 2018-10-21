@@ -41,7 +41,11 @@ public class DatabaseTest {
         Friend newFriend =  new Friend("김씨",16, Friend.Gender.MALE);
         database.add(newFriend);
         String result = database.add(new Friend("김씨",16, Friend.Gender.MALE));
-        assertTrue(result,"이미 존재하는 사용자 입니다.");
+        String result2 = database.add(new Friend("박씨",16, Friend.Gender.MALE));
+
+        assertTrue(result.equals("이미 존재하는 사용자 입니다."));
+        assertFalse(result2.equals("이미 존재하는 사용자 입니다."));
+
     }
 
     @Test
