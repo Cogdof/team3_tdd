@@ -38,10 +38,7 @@ public class DatabaseTest {
     }
     @Test
     public void Add_명령어를_입력했을떄_같은이름이_존재하면_입력받지않고_특정메세지를_리턴한다(){
-        Friend newFriend =  new Friend("김씨",16, Friend.Gender.MALE);
-        database.add(newFriend);
-        String result = database.add(new Friend("김씨",16, Friend.Gender.MALE));
-        assertTrue(result,"이미 존재하는 사용자 입니다.");
+
     }
 
     @Test
