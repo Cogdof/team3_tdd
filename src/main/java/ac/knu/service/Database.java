@@ -44,7 +44,9 @@ public class Database {
     }
 
     public String add(Friend newFriend) {
-
+        if(friendDatabase.size()>=10){
+            return "친구를 더이상 추가할 수 없습니다.";
+        }
         if(friendDatabase.containsKey(newFriend.getName())){
             return "이미 존재하는 사용자 입니다.";
         }
