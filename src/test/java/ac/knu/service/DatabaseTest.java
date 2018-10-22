@@ -96,7 +96,8 @@ public class DatabaseTest {
 
     @Test
     public void find_메소드를_친구이름으로_호출할때_해당친구이름이_리스트에없으면_NULL을_반환해야한다(){
-
+        Friend findedFriend = database.find("송씨");
+        assertTrue(findedFriend==null);
     }
 
 

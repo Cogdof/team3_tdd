@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="2e2f155e-35d3-47f3-86b6-3a03cd958c50" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ac/knu/service/Database.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ac/knu/service/Database.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/ac/knu/service/DatabaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ac/knu/service/DatabaseTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -219,12 +220,14 @@
     <session id="710575450">
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="297" />
+          <entry key="java" value="504" />
+          <entry key="txt" value="48" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="297" />
+          <entry key="JAVA" value="504" />
+          <entry key="PLAIN_TEXT" value="48" />
         </counts>
       </usages-collector>
     </session>
@@ -234,20 +237,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/ac/knu/service/CommandParsingServiceTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="665">
-              <caret line="52" column="1" selection-start-line="52" selection-start-column="1" selection-end-line="52" selection-end-column="1" />
+            <state relative-caret-position="250">
+              <caret line="43" column="5" lean-forward="true" selection-start-line="43" selection-start-column="5" selection-end-line="43" selection-end-column="5" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/ac/knu/service/DatabaseTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="209">
-              <caret line="90" column="40" lean-forward="true" selection-start-line="90" selection-start-column="40" selection-end-line="90" selection-end-column="40" />
+            <state relative-caret-position="193">
+              <caret line="96" column="9" lean-forward="true" selection-start-line="96" selection-start-column="9" selection-end-line="96" selection-end-column="9" />
               <folding>
                 <element signature="e#258#259#0" expanded="true" />
                 <element signature="e#299#300#0" expanded="true" />
@@ -259,7 +262,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/ac/knu/service/CommandParsingService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="969">
+            <state relative-caret-position="307">
               <caret line="75" selection-start-line="75" selection-end-line="75" />
             </state>
           </provider>
@@ -268,8 +271,11 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/ac/knu/service/Database.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="24" column="5" lean-forward="true" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
+            <state relative-caret-position="252">
+              <caret line="58" column="48" lean-forward="true" selection-start-line="58" selection-start-column="48" selection-end-line="58" selection-end-column="48" />
+              <folding>
+                <element signature="e#1351#1352#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -327,11 +333,11 @@
         <option value="$PROJECT_DIR$/src/test/java/ac/knu/service/FriendTest.java" />
         <option value="$PROJECT_DIR$/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/src/main/java/ac/knu/service/SlackBotService.java" />
-        <option value="$PROJECT_DIR$/src/test/java/ac/knu/service/CommandParsingServiceTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/ac/knu/service/Friend.java" />
         <option value="$PROJECT_DIR$/src/main/java/ac/knu/service/CommandParsingService.java" />
         <option value="$PROJECT_DIR$/src/main/java/ac/knu/service/Database.java" />
         <option value="$PROJECT_DIR$/src/test/java/ac/knu/service/DatabaseTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/ac/knu/service/CommandParsingServiceTest.java" />
       </list>
     </option>
   </component>
@@ -357,63 +363,42 @@
         <subPane>
           <expand>
             <path>
-              <item name="team3_TDD" type="b2602c69:ProjectViewProjectNode" />
-              <item name="team3_TDD" type="462c0819:PsiDirectoryNode" />
+              <item name="team3_tdd" type="b2602c69:ProjectViewProjectNode" />
+              <item name="team3_tdd" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="team3_TDD" type="b2602c69:ProjectViewProjectNode" />
-              <item name="team3_TDD" type="462c0819:PsiDirectoryNode" />
+              <item name="team3_tdd" type="b2602c69:ProjectViewProjectNode" />
+              <item name="team3_tdd" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="team3_TDD" type="b2602c69:ProjectViewProjectNode" />
-              <item name="team3_TDD" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="team3_TDD" type="b2602c69:ProjectViewProjectNode" />
-              <item name="team3_TDD" type="462c0819:PsiDirectoryNode" />
+              <item name="team3_tdd" type="b2602c69:ProjectViewProjectNode" />
+              <item name="team3_tdd" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="team3_TDD" type="b2602c69:ProjectViewProjectNode" />
-              <item name="team3_TDD" type="462c0819:PsiDirectoryNode" />
+              <item name="team3_tdd" type="b2602c69:ProjectViewProjectNode" />
+              <item name="team3_tdd" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="knu" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="team3_TDD" type="b2602c69:ProjectViewProjectNode" />
-              <item name="team3_TDD" type="462c0819:PsiDirectoryNode" />
+              <item name="team3_tdd" type="b2602c69:ProjectViewProjectNode" />
+              <item name="team3_tdd" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="knu" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="team3_TDD" type="b2602c69:ProjectViewProjectNode" />
-              <item name="team3_TDD" type="462c0819:PsiDirectoryNode" />
+              <item name="team3_tdd" type="b2602c69:ProjectViewProjectNode" />
+              <item name="team3_tdd" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="team3_TDD" type="b2602c69:ProjectViewProjectNode" />
-              <item name="team3_TDD" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="team3_TDD" type="b2602c69:ProjectViewProjectNode" />
-              <item name="team3_TDD" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="knu" type="462c0819:PsiDirectoryNode" />
               <item name="service" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -425,7 +410,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1540174606526" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1540174926517" />
     <property name="last_opened_file_path" value="D:/slackbot" />
     <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.15" />
@@ -455,21 +440,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.DatabaseTest.find_메소드를_친구이름으로_호출할때_해당친구이름이_리스트에있으면_해당_친구의_Friend객체를_반환해야한다">
-    <configuration name="CommandParsingServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="3Team_TDD" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ac.knu.service.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="ac.knu.service" />
-      <option name="MAIN_CLASS_NAME" value="ac.knu.service.CommandParsingServiceTest" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.DatabaseTest.find_메소드를_친구이름으로_호출할때_해당친구이름이_리스트에없으면_NULL을_반환해야한다">
     <configuration name="DatabaseTest.Add_명령어를_입력했을떄_같은이름이_존재하면_입력받지않고_특정메세지를_리턴한다" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="slackbot" />
       <extension name="coverage">
@@ -497,6 +468,22 @@
       <option name="PACKAGE_NAME" value="ac.knu.service" />
       <option name="MAIN_CLASS_NAME" value="ac.knu.service.DatabaseTest" />
       <option name="METHOD_NAME" value="Friend가_10명_즉_MAX일때_더이상_추가되지_않아야하고_특정메세지를_리턴한다" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DatabaseTest.find_메소드를_친구이름으로_호출할때_해당친구이름이_리스트에없으면_NULL을_반환해야한다" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="slackbot" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ac.knu.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ac.knu.service" />
+      <option name="MAIN_CLASS_NAME" value="ac.knu.service.DatabaseTest" />
+      <option name="METHOD_NAME" value="find_메소드를_친구이름으로_호출할때_해당친구이름이_리스트에없으면_NULL을_반환해야한다" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -533,19 +520,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.CommandParsingServiceTest" />
       <item itemvalue="JUnit.FriendTest" />
       <item itemvalue="JUnit.DatabaseTest.Add_명령어를_입력했을떄_같은이름이_존재하면_입력받지않고_특정메세지를_리턴한다" />
       <item itemvalue="JUnit.DatabaseTest.Friend가_10명_즉_MAX일때_더이상_추가되지_않아야하고_특정메세지를_리턴한다" />
       <item itemvalue="JUnit.DatabaseTest.find_메소드를_친구이름으로_호출할때_해당친구이름이_리스트에있으면_해당_친구의_Friend객체를_반환해야한다" />
+      <item itemvalue="JUnit.DatabaseTest.find_메소드를_친구이름으로_호출할때_해당친구이름이_리스트에없으면_NULL을_반환해야한다" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.DatabaseTest.find_메소드를_친구이름으로_호출할때_해당친구이름이_리스트에없으면_NULL을_반환해야한다" />
         <item itemvalue="JUnit.DatabaseTest.find_메소드를_친구이름으로_호출할때_해당친구이름이_리스트에있으면_해당_친구의_Friend객체를_반환해야한다" />
         <item itemvalue="JUnit.DatabaseTest.Friend가_10명_즉_MAX일때_더이상_추가되지_않아야하고_특정메세지를_리턴한다" />
         <item itemvalue="JUnit.DatabaseTest.Add_명령어를_입력했을떄_같은이름이_존재하면_입력받지않고_특정메세지를_리턴한다" />
         <item itemvalue="JUnit.FriendTest" />
-        <item itemvalue="JUnit.CommandParsingServiceTest" />
       </list>
     </recent_temporary>
   </component>
@@ -658,19 +645,17 @@
       <option name="project" value="LOCAL" />
       <updated>1540129876607</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="edited find test method in DatabaseTest.java">
+      <created>1540174649295</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1540174649295</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="DatabaseTest - 2018.10.20 at 13h 09m 35s.xml">
-      <configuration name="DatabaseTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ac_knu_service_in_3Team_TDD - 2018.10.20 at 13h 47m 30s.xml">
-      <configuration name="ac.knu.service in 3Team_TDD" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CommandParsingServiceTest - 2018.10.20 at 14h 12m 14s.xml">
-      <configuration name="CommandParsingServiceTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="FriendTest - 2018.10.20 at 14h 12m 23s.xml">
       <configuration name="FriendTest" configurationId="JUnit" />
     </history-entry>
@@ -691,6 +676,15 @@
     </history-entry>
     <history-entry file="DatabaseTest_Friend가_10명_즉_MAX일때_더이상_추가되지_않아야하고_특정메세지를_리턴한다 - 2018.10.21 at 22h 53m 36s.xml">
       <configuration name="DatabaseTest.Friend가_10명_즉_MAX일때_더이상_추가되지_않아야하고_특정메세지를_리턴한다" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DatabaseTest_find_메소드를_친구이름으로_호출할때_해당친구이름이_리스트에있으면_해당_친구의_Friend객체를_반환해야한다 - 2018.10.22 at 11h 19m 59s.xml">
+      <configuration name="DatabaseTest.find_메소드를_친구이름으로_호출할때_해당친구이름이_리스트에있으면_해당_친구의_Friend객체를_반환해야한다" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DatabaseTest_find_메소드를_친구이름으로_호출할때_해당친구이름이_리스트에없으면_NULL을_반환해야한다 - 2018.10.22 at 11h 20m 56s.xml">
+      <configuration name="DatabaseTest.find_메소드를_친구이름으로_호출할때_해당친구이름이_리스트에없으면_NULL을_반환해야한다" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DatabaseTest_find_메소드를_친구이름으로_호출할때_해당친구이름이_리스트에없으면_NULL을_반환해야한다 - 2018.10.22 at 11h 21m 17s.xml">
+      <configuration name="DatabaseTest.find_메소드를_친구이름으로_호출할때_해당친구이름이_리스트에없으면_NULL을_반환해야한다" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TodoView">
@@ -716,7 +710,7 @@
       <window_info anchor="bottom" id="Inspection Results" order="0" weight="0.329718" />
       <window_info anchor="bottom" id="Message" order="1" />
       <window_info anchor="bottom" id="Find" order="2" weight="0.32899022" />
-      <window_info anchor="bottom" id="Run" order="3" weight="0.29718006" />
+      <window_info active="true" anchor="bottom" id="Run" order="3" visible="true" weight="0.29590017" />
       <window_info anchor="bottom" id="Debug" order="4" weight="0.3984799" />
       <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
@@ -724,7 +718,7 @@
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.2527115" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50053304" side_tool="true" weight="0.32790446" />
       <window_info anchor="bottom" id="Version Control" order="10" weight="0.28835228" />
-      <window_info active="true" anchor="bottom" id="Messages" order="11" sideWeight="0.49946696" visible="true" weight="0.3262032" />
+      <window_info anchor="bottom" id="Messages" order="11" sideWeight="0.49946696" weight="0.3262032" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -754,7 +748,8 @@
     <MESSAGE value="added Test of command_Add, Constraint that refuse to add same name" />
     <MESSAGE value="edited Test and Method 'add()'' that Constraint that refuse to add same name and show specific message." />
     <MESSAGE value="added Test of command_Add, Constraint that refuse to add when friend size over 10" />
-    <option name="LAST_COMMIT_MESSAGE" value="added Test of command_Add, Constraint that refuse to add when friend size over 10" />
+    <MESSAGE value="edited find test method in DatabaseTest.java" />
+    <option name="LAST_COMMIT_MESSAGE" value="edited find test method in DatabaseTest.java" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
@@ -801,13 +796,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ac/knu/service/CommandParsingService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="969">
-          <caret line="75" selection-start-line="75" selection-end-line="75" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ac/knu/service/SlackBotService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="190">
@@ -821,28 +809,38 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/ac/knu/service/CommandParsingServiceTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/ac/knu/service/Database.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="665">
-          <caret line="52" column="1" selection-start-line="52" selection-start-column="1" selection-end-line="52" selection-end-column="1" />
+        <state relative-caret-position="252">
+          <caret line="58" column="48" lean-forward="true" selection-start-line="58" selection-start-column="48" selection-end-line="58" selection-end-column="48" />
+          <folding>
+            <element signature="e#1351#1352#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ac/knu/service/Database.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/ac/knu/service/CommandParsingService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="24" column="5" lean-forward="true" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
+        <state relative-caret-position="307">
+          <caret line="75" selection-start-line="75" selection-end-line="75" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/ac/knu/service/DatabaseTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="90" column="40" lean-forward="true" selection-start-line="90" selection-start-column="40" selection-end-line="90" selection-end-column="40" />
+        <state relative-caret-position="193">
+          <caret line="96" column="9" lean-forward="true" selection-start-line="96" selection-start-column="9" selection-end-line="96" selection-end-column="9" />
           <folding>
             <element signature="e#258#259#0" expanded="true" />
             <element signature="e#299#300#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ac/knu/service/CommandParsingServiceTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="43" column="5" lean-forward="true" selection-start-line="43" selection-start-column="5" selection-end-line="43" selection-end-column="5" />
         </state>
       </provider>
     </entry>

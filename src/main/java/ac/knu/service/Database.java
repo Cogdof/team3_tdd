@@ -54,8 +54,10 @@ public class Database {
             friendDatabase.put(newFriend.getName(), newFriend);
             return "";
         }
+    }
 
-
+    public Friend find(String frinedNameToFind){
+        return friendDatabase.get(frinedNameToFind);
     }
 }
 
