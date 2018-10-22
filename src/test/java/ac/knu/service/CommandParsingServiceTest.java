@@ -44,6 +44,15 @@ public class CommandParsingServiceTest {
     }
 
     @Test
+    public void 봇은_find명령어와_이름을_요청받으면_해당이름의_친구정보를_보여주어야한다(){
+        database.add(new Friend("상근", 25, Friend.Gender.MALE));
+        String command = commandParsingService.parseCommand("ID find 상근");
+        assertTrue(command.equalsIgnoreCase("상근 25 남자"));
+
+
+    }
+
+    @Test
     public void 봇은_정의되지않은_명령어를_요청받으면_정의되지_않은_명령어가_요청되었다는_String을_반환해야한다() {
         String result = commandParsingService.parseCommand("ID hhhh");
         assertTrue(result.equalsIgnoreCase("undefined command requested"));
