@@ -44,11 +44,18 @@ public class CommandParsingServiceTest {
     }
 
     @Test
-    public void 봇은_find명령어와_이름을_요청받으면_해당이름의_친구정보를_보여주어야한다(){
+    public void 봇은_find명령어와_이름을_요청받을때_친구리스트에_해당이름이_있으면_친구정보를_보여주어야한다(){
         database.add(new Friend("상근", 25, Friend.Gender.MALE));
-        String command = commandParsingService.parseCommand("ID find 상근");
-        assertTrue(command.equalsIgnoreCase("상근 25 남자"));
+        String commandForMale = commandParsingService.parseCommand("ID find 상근");
+        assertTrue(commandForMale.equalsIgnoreCase("상근 25 남자"));
 
+        database.add(new Friend("성희", 25, Friend.Gender.FEMALE));
+        String commandForFemale = commandParsingService.parseCommand("ID find 성희");
+        assertTrue(commandForFemale.equalsIgnoreCase("성희 25 여자"));
+    }
+
+    @Test
+    public void 봇은_find명령어와_이름을_요청받을때_친구리스트에_해당이름이_없으면_친구정보가_없다는_메시지를_보여주어야한다(){
 
     }
 
