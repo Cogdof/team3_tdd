@@ -60,11 +60,16 @@ public class CommandParsingService {
             case "find" :
 
                 Friend findedFriend = database.find(name);
-                result = findedFriend.getName() + " " + findedFriend.getAge();
-                if(findedFriend.getGender() == Friend.Gender.MALE){
-                    result += " 남자";
+
+                if(findedFriend == null){
+                    result = "The friend isn't in the friends list";
                 } else {
-                    result += " 여자";
+                    result = findedFriend.getName() + " " + findedFriend.getAge();
+                    if(findedFriend.getGender() == Friend.Gender.MALE){
+                        result += " 남자";
+                    } else {
+                        result += " 여자";
+                    }
                 }
                 break;
 

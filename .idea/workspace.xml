@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="2e2f155e-35d3-47f3-86b6-3a03cd958c50" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ac/knu/service/CommandParsingServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ac/knu/service/CommandParsingServiceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ac/knu/service/CommandParsingService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ac/knu/service/CommandParsingService.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -219,14 +219,14 @@
     <session id="710575450">
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="1459" />
-          <entry key="txt" value="92" />
+          <entry key="java" value="1511" />
+          <entry key="txt" value="108" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="1459" />
-          <entry key="PLAIN_TEXT" value="92" />
+          <entry key="JAVA" value="1511" />
+          <entry key="PLAIN_TEXT" value="108" />
         </counts>
       </usages-collector>
     </session>
@@ -236,11 +236,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/ac/knu/service/CommandParsingServiceTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="155">
-              <caret line="59" column="115" selection-start-line="59" selection-start-column="115" selection-end-line="59" selection-end-column="115" />
+            <state relative-caret-position="212">
+              <caret line="59" column="111" lean-forward="true" selection-start-line="59" selection-start-column="75" selection-end-line="59" selection-end-column="111" />
             </state>
           </provider>
         </entry>
@@ -258,11 +258,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/ac/knu/service/CommandParsingService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="117">
-              <caret line="18" column="30" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="30" />
+            <state relative-caret-position="174">
+              <caret line="72" column="17" selection-start-line="72" selection-start-column="17" selection-end-line="72" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -336,8 +336,8 @@
         <option value="$PROJECT_DIR$/src/main/java/ac/knu/service/Friend.java" />
         <option value="$PROJECT_DIR$/src/main/java/ac/knu/service/Database.java" />
         <option value="$PROJECT_DIR$/src/test/java/ac/knu/service/DatabaseTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ac/knu/service/CommandParsingService.java" />
         <option value="$PROJECT_DIR$/src/test/java/ac/knu/service/CommandParsingServiceTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ac/knu/service/CommandParsingService.java" />
       </list>
     </option>
   </component>
@@ -416,7 +416,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1540176055690" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1540176205050" />
     <property name="last_opened_file_path" value="D:/slackbot" />
     <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.15" />
@@ -446,7 +446,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.CommandParsingServiceTest.봇은_find명령어와_이름을_요청받을때_친구리스트에_해당이름이_없으면_친구정보가_없다는_메시지를_보여주어야한다">
+  <component name="RunManager" selected="JUnit.CommandParsingServiceTest.봇은_find명령어와_이름을_요청받을때_친구리스트에_해당이름이_있으면_친구정보를_보여주어야한다">
     <configuration name="All in slackbot" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="slackbot" />
       <option name="PACKAGE_NAME" value="" />
@@ -466,6 +466,22 @@
       <option name="PACKAGE_NAME" value="ac.knu.service" />
       <option name="MAIN_CLASS_NAME" value="ac.knu.service.CommandParsingServiceTest" />
       <option name="METHOD_NAME" value="봇은_find명령어와_이름을_요청받으면_해당이름의_친구정보를_보여주어야한다" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CommandParsingServiceTest.봇은_find명령어와_이름을_요청받을때_친구리스트에_해당이름이_있으면_친구정보를_보여주어야한다" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="slackbot" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ac.knu.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ac.knu.service" />
+      <option name="MAIN_CLASS_NAME" value="ac.knu.service.CommandParsingServiceTest" />
+      <option name="METHOD_NAME" value="봇은_find명령어와_이름을_요청받을때_친구리스트에_해당이름이_있으면_친구정보를_보여주어야한다" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -503,36 +519,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DatabaseTest.find_메소드를_친구이름으로_호출할때_해당친구이름이_리스트에없으면_NULL을_반환해야한다" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="slackbot" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ac.knu.service.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="ac.knu.service" />
-      <option name="MAIN_CLASS_NAME" value="ac.knu.service.DatabaseTest" />
-      <option name="METHOD_NAME" value="find_메소드를_친구이름으로_호출할때_해당친구이름이_리스트에없으면_NULL을_반환해야한다" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
-      <item itemvalue="JUnit.DatabaseTest.find_메소드를_친구이름으로_호출할때_해당친구이름이_리스트에없으면_NULL을_반환해야한다" />
       <item itemvalue="JUnit.All in slackbot" />
       <item itemvalue="JUnit.CommandParsingServiceTest.봇은_list명령어를_요청받으면_친구목록을_보여주어야한다" />
       <item itemvalue="JUnit.CommandParsingServiceTest.봇은_find명령어와_이름을_요청받으면_해당이름의_친구정보를_보여주어야한다" />
       <item itemvalue="JUnit.CommandParsingServiceTest.봇은_find명령어와_이름을_요청받을때_친구리스트에_해당이름이_없으면_친구정보가_없다는_메시지를_보여주어야한다" />
+      <item itemvalue="JUnit.CommandParsingServiceTest.봇은_find명령어와_이름을_요청받을때_친구리스트에_해당이름이_있으면_친구정보를_보여주어야한다" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.CommandParsingServiceTest.봇은_find명령어와_이름을_요청받을때_친구리스트에_해당이름이_있으면_친구정보를_보여주어야한다" />
         <item itemvalue="JUnit.CommandParsingServiceTest.봇은_find명령어와_이름을_요청받을때_친구리스트에_해당이름이_없으면_친구정보가_없다는_메시지를_보여주어야한다" />
         <item itemvalue="JUnit.CommandParsingServiceTest.봇은_find명령어와_이름을_요청받으면_해당이름의_친구정보를_보여주어야한다" />
         <item itemvalue="JUnit.CommandParsingServiceTest.봇은_list명령어를_요청받으면_친구목록을_보여주어야한다" />
         <item itemvalue="JUnit.All in slackbot" />
-        <item itemvalue="JUnit.DatabaseTest.find_메소드를_친구이름으로_호출할때_해당친구이름이_리스트에없으면_NULL을_반환해야한다" />
       </list>
     </recent_temporary>
   </component>
@@ -673,7 +673,14 @@
       <option name="project" value="LOCAL" />
       <updated>1540175833601</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="edited find test method in CommandParsingServiceTest.java">
+      <created>1540176098446</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1540176098446</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -771,9 +778,9 @@
     <MESSAGE value="added Test of command_Add, Constraint that refuse to add when friend size over 10" />
     <MESSAGE value="edited find test method in DatabaseTest.java" />
     <MESSAGE value="edited find method in Database.java" />
-    <MESSAGE value="edited find test method in CommandParsingServiceTest.java" />
     <MESSAGE value="edited parseCommand method (find logic) in CommandParsingServiceTest.java" />
-    <option name="LAST_COMMIT_MESSAGE" value="edited parseCommand method (find logic) in CommandParsingServiceTest.java" />
+    <MESSAGE value="edited find test method in CommandParsingServiceTest.java" />
+    <option name="LAST_COMMIT_MESSAGE" value="edited find test method in CommandParsingServiceTest.java" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
@@ -855,17 +862,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ac/knu/service/CommandParsingService.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/ac/knu/service/CommandParsingServiceTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="117">
-          <caret line="18" column="30" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="30" />
+        <state relative-caret-position="212">
+          <caret line="59" column="111" lean-forward="true" selection-start-line="59" selection-start-column="75" selection-end-line="59" selection-end-column="111" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/ac/knu/service/CommandParsingServiceTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/ac/knu/service/CommandParsingService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="155">
-          <caret line="59" column="115" selection-start-line="59" selection-start-column="115" selection-end-line="59" selection-end-column="115" />
+        <state relative-caret-position="174">
+          <caret line="72" column="17" selection-start-line="72" selection-start-column="17" selection-end-line="72" selection-end-column="17" />
         </state>
       </provider>
     </entry>
