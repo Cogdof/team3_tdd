@@ -86,7 +86,18 @@ public class DatabaseTest {
     }
 
     @Test
-    public void 봇은_find_친구이름_명령어를_요청받았을때_친구이름이_리스트에없으면_NULL을_반환해야한다(){
+    public void find_메소드를_친구이름으로_호출할때_해당친구이름이_리스트에있으면_해당_친구의_Friend객체를_반환해야한다(){
+        Friend willBeAddedFriend =  new Friend("박씨",21, Friend.Gender.MALE);
+        database.add(willBeAddedFriend);
+
+        Friend findedFriend = database.find("박씨");
+        assertTrue(findedFriend.equals(willBeAddedFriend));
+    }
+
+    @Test
+    public void find_메소드를_친구이름으로_호출할때_해당친구이름이_리스트에없으면_NULL을_반환해야한다(){
 
     }
+
+
 }
