@@ -18,12 +18,12 @@ import javax.annotation.PostConstruct;
 @Service
 @JBot
 @Slf4j
-public class SlackBotService extends Bot {
+class SlackBotService extends Bot {
 
     private CommandParsingService commandParsingService;
     private Database database;
 
-    public SlackBotService() {
+    private SlackBotService() {
         database = new Database();
         commandParsingService = new CommandParsingService(database);
     }

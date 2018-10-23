@@ -5,7 +5,7 @@ import lombok.Data;
 import java.util.*;
 
 @Data
-public class Database {
+class Database {
 
     private Map<String, Friend> friendDatabase;
     private Iterator<String> friendNameItr;

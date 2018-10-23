@@ -1,8 +1,11 @@
 package ac.knu.service;
 
 
+import ac.knu.service.exception.InputFormOveredException;
 import org.junit.Before;
 import org.junit.Test;
+
+import java.util.InputMismatchException;
 
 import static org.junit.Assert.assertTrue;
 
@@ -10,10 +13,16 @@ public class CommandParsingServiceTest {
 
     private CommandParsingService commandParsingService;
     private Database database;
+
     @Before
     public void setUp(){
         database = new Database();
         commandParsingService = new CommandParsingService(database);
+
+        database.add(new Friend("신홍",15, Friend.Gender.MALE));
+        database.add(new Friend("호열",16, Friend.Gender.MALE));
+        database.add(new Friend("희수",17, Friend.Gender.FEMALE));
+        database.add(new Friend("근용",18, Friend.Gender.MALE));
     }
 
     @Test
@@ -24,34 +33,22 @@ public class CommandParsingServiceTest {
 
     @Test
     public void 봇은_remove명령어와_이름을_요청받으면_해당이름을_가진_친구를_삭제해야한다(){
-        database.getFriendDatabase().put("신홍",new Friend("신홍",15, Friend.Gender.MALE));
-        database.getFriendDatabase().put("호열",new Friend("호열",15, Friend.Gender.MALE));
-        database.getFriendDatabase().put("희수",new Friend("희수",15, Friend.Gender.MALE));
-        database.getFriendDatabase().put("근용",new Friend("근용",15, Friend.Gender.MALE));
         String command = commandParsingService.parseCommand("ID remove 희수");
         assertTrue(command.equalsIgnoreCase("remove success"));
     }
 
     @Test
     public void 봇은_list명령어를_요청받으면_친구목록을_보여주어야한다(){
-        database.add(new Friend("신홍",15, Friend.Gender.MALE));
-        database.add(new Friend("호열",16, Friend.Gender.MALE));
-        database.add(new Friend("희수",17, Friend.Gender.FEMALE));
-        database.add(new Friend("근용",18, Friend.Gender.MALE));
-        String listString = database.friendList();
-
+        String listString = commandParsingService.parseCommand("ID list");
         assertTrue(listString.equalsIgnoreCase("신홍\n호열\n희수\n근용\n"));
     }
 
     @Test
     public void 봇은_find명령어와_이름을_요청받을때_친구리스트에_해당이름이_있으면_친구정보를_보여주어야한다(){
-        database.add(new Friend("상근", 25, Friend.Gender.MALE));
-        String resultMessageForFindingExistMaleFriend = commandParsingService.parseCommand("ID find 상근");
-        assertTrue(resultMessageForFindingExistMaleFriend.equalsIgnoreCase("상근 25 남자"));
-
-        database.add(new Friend("성희", 25, Friend.Gender.FEMALE));
-        String resultMessageForFindingExistFemaleFriend = commandParsingService.parseCommand("ID find 성희");
-        assertTrue(resultMessageForFindingExistFemaleFriend.equalsIgnoreCase("성희 25 여자"));
+        String resultMessageForFindingExistMaleFriend = commandParsingService.parseCommand("ID find 신홍");
+        assertTrue(resultMessageForFindingExistMaleFriend.equalsIgnoreCase("신홍 15 남자"));
+        String resultMessageForFindingExistFemaleFriend = commandParsingService.parseCommand("ID find 희수");
+        assertTrue(resultMessageForFindingExistFemaleFriend.equalsIgnoreCase("희수 17 여자"));
     }
 
     @Test
@@ -62,14 +59,20 @@ public class CommandParsingServiceTest {
 
     @Test
     public void 봇은_정의되지않은_명령어를_요청받으면_정의되지_않은_명령어가_요청되었다는_String을_반환해야한다() {
-        String result = commandParsingService.parseCommand("ID hhhh");
-        assertTrue(result.equalsIgnoreCase("undefined command requested"));
+        String resultMessageNotDefinedCommand = commandParsingService.parseCommand("ID hhhh");
+        assertTrue(resultMessageNotDefinedCommand.equalsIgnoreCase("잘못된 입력이 들어왔습니다."));
     }
 
-    @Test(expected = new InputFormOveredException())
+    @Test
     public void 봇은_명령어의_입력시_알맞은_길이만큼_받지_않으면_에러메세지를_출력한다(){
         // add = 5 remove,serach = 3 list,time = 2
-        commandParsingService.parseCommand("ID add 호열 123");
+        String resultMessageNotVaildLength = commandParsingService.parseCommand("ID add 호열 123 111 1111");
+        assertTrue(resultMessageNotVaildLength.equalsIgnoreCase("잘못된 입력이 들어왔습니다."));
     }
 
+    @Test
+    public void 봇은_명령어의_입력이_알맞은_길이만큼_받으면_정상_작동한다(){
+        String resultMessage = commandParsingService.parseCommand("ID add 안녕 123 남자");
+        assertTrue(resultMessage.equalsIgnoreCase("Add complete"));
+    }
 }

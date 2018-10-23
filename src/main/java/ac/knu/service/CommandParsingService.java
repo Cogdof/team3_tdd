@@ -1,23 +1,43 @@
 package ac.knu.service;
 
-import java.util.ArrayList;
+import ac.knu.service.exception.InputFormOveredException;
+
 import java.util.Arrays;
 import java.util.Date;
-import java.util.List;
 
-public class CommandParsingService {
+class CommandParsingService {
 
-    private List<String> commandList = new ArrayList<>();
     private Database database;
 
     public CommandParsingService(Database database) {
-        commandList.add("time");
-        commandList.add("add");
         this.database = database;
     }
 
-    public String parseCommand(String command) {
+    private boolean isVaildInputForm(int commandLength, String command){
 
+        int limitLength = 0;
+
+        switch(command) {
+            case "add" :
+                limitLength = 5;
+                break;
+
+            case "time": case "list" :
+                limitLength = 2;
+                break;
+
+            case "remove": case "find" :
+                limitLength = 3;
+                break;
+
+            default :
+                return false;
+        }
+
+        return commandLength == limitLength;
+    }
+
+    public String parseCommand(String command) {
 
         String[] commandSplitList = command.split(" ");
 
@@ -29,15 +49,23 @@ public class CommandParsingService {
             name = commandSplitList[2];
         }
 
+        try {
+            if(!isVaildInputForm(commandSplitList.length, command)) {
+                throw new InputFormOveredException();
+            }
+        }catch(InputFormOveredException e) {
+            return "잘못된 입력이 들어왔습니다.";
+        }
+
         switch(command) {
             case "add" :
                 int age = Integer.parseInt(commandSplitList[3]);
 
                 String Male[]= {"남자", "남" ,"Male", "Men", "male", "man"};
                 String female[] = {"여자", "여", "Female","Woman", "women", "female"};
-               
+
                 Friend.Gender gender = null;
-                
+
                 if(Arrays.asList(Male).contains(commandSplitList[4])){
                     gender = Friend.Gender.MALE;
                 }
@@ -79,7 +107,6 @@ public class CommandParsingService {
 
             case "list" :
                 result = database.friendList();
-
                 break;
 
             case "time" :
