@@ -66,5 +66,10 @@ public class CommandParsingServiceTest {
         assertTrue(result.equalsIgnoreCase("undefined command requested"));
     }
 
+    @Test(expected = new InputFormOveredException())
+    public void 봇은_명령어의_입력시_알맞은_길이만큼_받지_않으면_에러메세지를_출력한다(){
+        // add = 5 remove,serach = 3 list,time = 2
+        commandParsingService.parseCommand("ID add 호열 123");
+    }
 
 }

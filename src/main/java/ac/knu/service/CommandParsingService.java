@@ -18,7 +18,9 @@ public class CommandParsingService {
 
     public String parseCommand(String command) {
 
+
         String[] commandSplitList = command.split(" ");
+
         command = commandSplitList[1];
 
         String name = "";
@@ -30,6 +32,7 @@ public class CommandParsingService {
         switch(command) {
             case "add" :
                 int age = Integer.parseInt(commandSplitList[3]);
+
                 String Male[]= {"남자", "남" ,"Male", "Men", "male", "man"};
                 String female[] = {"여자", "여", "Female","Woman", "women", "female"};
                
@@ -76,6 +79,7 @@ public class CommandParsingService {
 
             case "list" :
                 result = database.friendList();
+
                 break;
 
             case "time" :
