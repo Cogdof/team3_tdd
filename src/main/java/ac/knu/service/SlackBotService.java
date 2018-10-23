@@ -6,7 +6,6 @@ import me.ramswaroop.jbot.core.common.EventType;
 import me.ramswaroop.jbot.core.common.JBot;
 import me.ramswaroop.jbot.core.slack.Bot;
 import me.ramswaroop.jbot.core.slack.models.Event;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.Profile;
 import org.springframework.stereotype.Service;
@@ -20,11 +19,12 @@ import javax.annotation.PostConstruct;
 @Slf4j
 class SlackBotService extends Bot {
 
-    private CommandParsingService commandParsingService;
-    private Database database;
+    private final CommandParsingService commandParsingService;
+    @Value("${slackBotToken}")
+    private String slackToken;
 
     private SlackBotService() {
-        database = new Database();
+        Database database = new Database();
         commandParsingService = new CommandParsingService(database);
     }
 
@@ -39,9 +39,6 @@ class SlackBotService extends Bot {
 
         reply(session, event, result);
     }
-
-    @Value("${slackBotToken}")
-    private String slackToken;
 
     @PostConstruct
     public void init() {

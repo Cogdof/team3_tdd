@@ -1,36 +1,38 @@
 package ac.knu.service;
 
-import ac.knu.service.exception.InputFormOveredException;
+import ac.knu.service.exception.InputFormLengthMismatchException;
 
 import java.util.Arrays;
 import java.util.Date;
 
 class CommandParsingService {
 
-    private Database database;
+    private final Database database;
 
     public CommandParsingService(Database database) {
         this.database = database;
     }
 
-    private boolean isVaildInputForm(int commandLength, String command){
+    private boolean isValidInputForm(int commandLength, String command) {
 
-        int limitLength = 0;
+        int limitLength;
 
-        switch(command) {
-            case "add" :
+        switch (command) {
+            case "add":
                 limitLength = 5;
                 break;
 
-            case "time": case "list" :
+            case "time":
+            case "list":
                 limitLength = 2;
                 break;
 
-            case "remove": case "find" :
+            case "remove":
+            case "find":
                 limitLength = 3;
                 break;
 
-            default :
+            default:
                 return false;
         }
 
@@ -44,59 +46,57 @@ class CommandParsingService {
         command = commandSplitList[1];
 
         String name = "";
-        String result = "";
+        String result;
         if (commandSplitList.length >= 3) {
             name = commandSplitList[2];
         }
 
         try {
-            if(!isVaildInputForm(commandSplitList.length, command)) {
-                throw new InputFormOveredException();
+            if (!isValidInputForm(commandSplitList.length, command)) {
+                throw new InputFormLengthMismatchException();
             }
-        }catch(InputFormOveredException e) {
+        } catch (InputFormLengthMismatchException e) {
             return "잘못된 입력이 들어왔습니다.";
         }
 
-        switch(command) {
-            case "add" :
+        switch (command) {
+            case "add":
                 int age = Integer.parseInt(commandSplitList[3]);
 
-                String Male[]= {"남자", "남" ,"Male", "Men", "male", "man"};
-                String female[] = {"여자", "여", "Female","Woman", "women", "female"};
+                String Male[] = {"남자", "남", "Male", "Men", "male", "man"};
+                String female[] = {"여자", "여", "Female", "Woman", "women", "female"};
 
                 Friend.Gender gender = null;
 
-                if(Arrays.asList(Male).contains(commandSplitList[4])){
+                if (Arrays.asList(Male).contains(commandSplitList[4])) {
                     gender = Friend.Gender.MALE;
-                }
-                else if(Arrays.asList(female).contains(commandSplitList[4])){
+                } else if (Arrays.asList(female).contains(commandSplitList[4])) {
                     gender = Friend.Gender.FEMALE;
                 }
 
-                Friend newFriend = new Friend(name,age,gender);
+                Friend newFriend = new Friend(name, age, gender);
                 database.add(newFriend);
 
                 result = "Add complete";
                 break;
 
-            case "remove" :
-                if(database.remove(name)) {
+            case "remove":
+                if (database.remove(name)) {
                     result = "remove success";
-                }
-                else{
+                } else {
                     result = "Not found name, remove fail";
                 }
                 break;
 
-            case "find" :
+            case "find":
 
                 Friend findedFriend = database.find(name);
 
-                if(findedFriend == null){
+                if (findedFriend == null) {
                     result = "The friend isn't in the friends list";
                 } else {
                     result = findedFriend.getName() + " " + findedFriend.getAge();
-                    if(findedFriend.getGender() == Friend.Gender.MALE){
+                    if (findedFriend.getGender() == Friend.Gender.MALE) {
                         result += " 남자";
                     } else {
                         result += " 여자";
@@ -105,18 +105,18 @@ class CommandParsingService {
                 break;
 
 
-            case "list" :
+            case "list":
                 result = database.friendList();
                 break;
 
-            case "time" :
+            case "time":
                 result = "Current Time is :" + new Date().toString();
                 break;
 
-            default :
+            default:
                 result = "undefined command requested";
                 break;
-            }
+        }
 
         return result;
     }

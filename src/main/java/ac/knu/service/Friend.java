@@ -15,11 +15,11 @@ public class Friend {
         this.gender = gender;
     }
 
-    public enum Gender{
-        MALE, FEMALE
+    public boolean equals(Friend willBeComparedFriend) {
+        return (this.name.equals(willBeComparedFriend.name) && this.age == willBeComparedFriend.age && this.gender == willBeComparedFriend.gender);
     }
 
-    public boolean equals(Friend willBeComparedFriend){
-        return (this.name == willBeComparedFriend.name && this.age == willBeComparedFriend.age && this.gender == willBeComparedFriend.gender);
+    public enum Gender {
+        MALE, FEMALE
     }
 }
