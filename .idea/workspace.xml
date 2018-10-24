@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2e2f155e-35d3-47f3-86b6-3a03cd958c50" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ac/knu/service/CommandParsingService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ac/knu/service/CommandParsingService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ac/knu/service/Database.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ac/knu/service/Database.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/ac/knu/service/CommandParsingServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ac/knu/service/CommandParsingServiceTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -242,12 +242,12 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="4" />
+          <entry key="java" value="19" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="4" />
+          <entry key="JAVA" value="19" />
         </counts>
       </usages-collector>
     </session>
@@ -257,11 +257,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/ac/knu/service/CommandParsingServiceTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="447">
-              <caret line="80" selection-start-line="80" selection-end-line="80" />
+            <state relative-caret-position="329">
+              <caret line="77" column="40" selection-start-line="77" selection-start-column="40" selection-end-line="77" selection-end-column="40" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -272,24 +272,12 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/ac/knu/service/DatabaseTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1245">
+            <state relative-caret-position="1644">
               <caret line="102" selection-start-line="102" selection-end-line="102" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#270#271#0" expanded="true" />
                 <element signature="e#311#312#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/ac/knu/SlackBotApplication.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
-              <folding>
-                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -310,8 +298,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/ac/knu/service/CommandParsingService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="493">
-              <caret line="86" column="50" selection-start-line="86" selection-start-column="50" selection-end-line="86" selection-end-column="50" />
+            <state relative-caret-position="196">
+              <caret line="83" column="82" selection-start-line="83" selection-start-column="82" selection-end-line="83" selection-end-column="82" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -397,8 +385,8 @@
         <option value="$PROJECT_DIR$/src/main/java/ac/knu/service/SlackBotService.java" />
         <option value="$PROJECT_DIR$/src/test/java/ac/knu/service/FriendTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/ac/knu/service/DatabaseTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/ac/knu/service/CommandParsingServiceTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/ac/knu/service/Database.java" />
+        <option value="$PROJECT_DIR$/src/test/java/ac/knu/service/CommandParsingServiceTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/ac/knu/service/CommandParsingService.java" />
       </list>
     </option>
@@ -410,8 +398,8 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="953" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-7" />
     <option name="width" value="974" />
     <option name="height" value="1047" />
   </component>
@@ -493,7 +481,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1540366018144" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1540367794176" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../LoginServiceProgram" />
     <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.15" />
@@ -524,7 +512,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.SlackBotApplication">
+  <component name="RunManager" selected="JUnit.CommandParsingServiceTest.Add_명령어를_입력했을때_이름String형_나이int형_성별String형으로_제대로입력받지않으면_특정메세지를_리턴한다">
     <configuration name="SlackBotApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ac.knu.SlackBotApplication" />
       <module name="team3_tdd" />
@@ -606,8 +594,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.SlackBotApplication" />
         <item itemvalue="JUnit.CommandParsingServiceTest.Add_명령어를_입력했을때_이름String형_나이int형_성별String형으로_제대로입력받지않으면_특정메세지를_리턴한다" />
+        <item itemvalue="Application.SlackBotApplication" />
         <item itemvalue="JUnit.ac.knu.service in 3Team_TDD" />
         <item itemvalue="JUnit.DatabaseTest" />
         <item itemvalue="JUnit.FriendTest" />
@@ -762,15 +750,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="CommandParsingServiceTest - 2018.10.23 at 18h 36m 45s.xml">
-      <configuration name="CommandParsingServiceTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="DatabaseTest - 2018.10.23 at 18h 36m 47s.xml">
-      <configuration name="DatabaseTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="FriendTest - 2018.10.23 at 18h 36m 50s.xml">
-      <configuration name="FriendTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="DatabaseTest - 2018.10.23 at 18h 39m 17s.xml">
       <configuration name="DatabaseTest" configurationId="JUnit" />
     </history-entry>
@@ -792,6 +771,15 @@
     <history-entry file="CommandParsingServiceTest_Add_명령어를_입력했을때_이름String형_나이int형_성별String형으로_제대로입력받지않으면_특정메세지를_리턴한다 - 2018.10.24 at 16h 12m 18s.xml">
       <configuration name="CommandParsingServiceTest.Add_명령어를_입력했을때_이름String형_나이int형_성별String형으로_제대로입력받지않으면_특정메세지를_리턴한다" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="CommandParsingServiceTest_Add_명령어를_입력했을때_이름String형_나이int형_성별String형으로_제대로입력받지않으면_특정메세지를_리턴한다 - 2018.10.24 at 16h 53m 38s.xml">
+      <configuration name="CommandParsingServiceTest.Add_명령어를_입력했을때_이름String형_나이int형_성별String형으로_제대로입력받지않으면_특정메세지를_리턴한다" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CommandParsingServiceTest_Add_명령어를_입력했을때_이름String형_나이int형_성별String형으로_제대로입력받지않으면_특정메세지를_리턴한다 - 2018.10.24 at 16h 54m 12s.xml">
+      <configuration name="CommandParsingServiceTest.Add_명령어를_입력했을때_이름String형_나이int형_성별String형으로_제대로입력받지않으면_특정메세지를_리턴한다" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CommandParsingServiceTest_Add_명령어를_입력했을때_이름String형_나이int형_성별String형으로_제대로입력받지않으면_특정메세지를_리턴한다 - 2018.10.24 at 16h 54m 47s.xml">
+      <configuration name="CommandParsingServiceTest.Add_명령어를_입력했을때_이름String형_나이int형_성별String형으로_제대로입력받지않으면_특정메세지를_리턴한다" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -803,10 +791,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-7" y="0" width="974" height="1047" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49838188" visible="true" weight="0.1663113" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49838188" visible="true" weight="0.34135666" />
       <window_info id="Structure" order="1" sideWeight="0.50161815" side_tool="true" weight="0.20202559" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -816,7 +804,7 @@
       <window_info anchor="bottom" id="Inspection Results" order="0" visible="true" weight="0.32899022" />
       <window_info anchor="bottom" id="Message" order="1" />
       <window_info anchor="bottom" id="Find" order="2" weight="0.32899022" />
-      <window_info active="true" anchor="bottom" id="Run" order="3" visible="true" weight="0.29533115" />
+      <window_info active="true" anchor="bottom" id="Run" order="3" visible="true" weight="0.2982456" />
       <window_info anchor="bottom" id="Debug" order="4" weight="0.3984799" />
       <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
@@ -912,28 +900,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/ac/knu/service/DatabaseTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1245">
-          <caret line="102" selection-start-line="102" selection-end-line="102" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#270#271#0" expanded="true" />
-            <element signature="e#311#312#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/ac/knu/service/CommandParsingServiceTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="447">
-          <caret line="80" selection-start-line="80" selection-end-line="80" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ac/knu/service/Database.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="500">
@@ -944,16 +910,6 @@
             <element signature="e#309#310#0" expanded="true" />
             <element signature="e#1384#1385#0" expanded="true" />
             <element signature="e#1443#1444#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ac/knu/service/CommandParsingService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="86" column="50" selection-start-line="86" selection-start-column="50" selection-end-line="86" selection-end-column="50" />
-          <folding>
-            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -972,6 +928,38 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
           <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ac/knu/service/DatabaseTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1644">
+          <caret line="102" selection-start-line="102" selection-end-line="102" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#270#271#0" expanded="true" />
+            <element signature="e#311#312#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ac/knu/service/CommandParsingService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="196">
+          <caret line="83" column="82" selection-start-line="83" selection-start-column="82" selection-end-line="83" selection-end-column="82" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ac/knu/service/CommandParsingServiceTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="329">
+          <caret line="77" column="40" selection-start-line="77" selection-start-column="40" selection-end-line="77" selection-end-column="40" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

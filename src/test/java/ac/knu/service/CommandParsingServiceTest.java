@@ -75,8 +75,10 @@ public class CommandParsingServiceTest {
     public void Add_명령어를_입력했을때_이름String형_나이int형_성별String형으로_제대로입력받지않으면_특정메세지를_리턴한다(){
         String resultMessage = commandParsingService.parseCommand("ID add 안녕 열살 남자");
         String resultMessage2 = commandParsingService.parseCommand("ID add 안1녕 10 남자");
+        String resultMessage3 = commandParsingService.parseCommand("ID add 안녕 10 ?자");
         assertTrue(resultMessage.equalsIgnoreCase("형식에 맞지않는 입력입니다! [add 이름 나이(숫자) 성별(남,여)] 형식으로 입력해주세요."));
-        assertTrue(resultMessage.equalsIgnoreCase("형식에 맞지않는 입력입니다! [add 이름 나이(숫자) 성별(남,여)] 형식으로 입력해주세요."));
+        assertTrue(resultMessage2.equalsIgnoreCase("형식에 맞지않는 입력입니다! [add 이름 나이(숫자) 성별(남,여)] 형식으로 입력해주세요."));
+        assertTrue(resultMessage3.equalsIgnoreCase("형식에 맞지않는 입력입니다! [add 이름 나이(숫자) 성별(남,여)] 형식으로 입력해주세요."));
 
 
     }
