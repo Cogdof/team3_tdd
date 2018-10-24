@@ -82,9 +82,9 @@ class CommandParsingService {
                 }
 
                 Friend newFriend = new Friend(name, age, gender);
-                database.add(newFriend);
 
-                result = "Add complete";
+
+                result =  database.add(newFriend);
                 break;
 
             case "remove":

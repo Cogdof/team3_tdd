@@ -51,7 +51,7 @@ class Database {
             return "이미 존재하는 사용자 입니다.";
         } else {
             friendDatabase.put(newFriend.getName(), newFriend);
-            return "";
+            return "Add complete";
         }
     }
 

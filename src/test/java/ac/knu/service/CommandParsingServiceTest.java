@@ -78,6 +78,6 @@ public class CommandParsingServiceTest {
         assertTrue(resultMessage.equalsIgnoreCase("형식에 맞지않는 입력입니다! [add 이름 나이(숫자) 성별(남,여)] 형식으로 입력해주세요."));
         assertTrue(resultMessage.equalsIgnoreCase("형식에 맞지않는 입력입니다! [add 이름 나이(숫자) 성별(남,여)] 형식으로 입력해주세요."));
 
-        //구현하면됨
+
     }
 }
