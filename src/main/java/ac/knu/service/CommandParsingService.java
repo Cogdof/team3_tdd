@@ -61,6 +61,13 @@ class CommandParsingService {
 
         switch (command) {
             case "add":
+                if(commandSplitList[2].matches(".*[0-9].*"))
+                    return "형식에 맞지않는 입력입니다! [add 이름 나이(숫자) 성별(남,여)] 형식으로 입력해주세요.";
+
+                //age 부분에 살같은 문자열이 와도 안됨
+                if(commandSplitList[3].matches(".*[A-z].*" ) || commandSplitList[3].matches(".*[ㄱ-ㅎ ㅏ-ㅣ 가-힣]+.*" ))
+                    return "형식에 맞지않는 입력입니다! [add 이름 나이(숫자) 성별(남,여)] 형식으로 입력해주세요.";
+
                 int age = Integer.parseInt(commandSplitList[3]);
 
                 String Male[] = {"남자", "남", "Male", "Men", "male", "man"};

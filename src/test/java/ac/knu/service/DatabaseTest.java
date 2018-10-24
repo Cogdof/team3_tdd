@@ -100,4 +100,5 @@ public class DatabaseTest {
         Friend findedFriend = database.find("송씨");
         assertNull(findedFriend);
     }
+
 }
