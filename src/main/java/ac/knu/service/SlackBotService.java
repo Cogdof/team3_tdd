@@ -17,13 +17,13 @@ import javax.annotation.PostConstruct;
 @Service
 @JBot
 @Slf4j
-class SlackBotService extends Bot {
+public class SlackBotService extends Bot {
 
     private final CommandParsingService commandParsingService;
     @Value("${slackBotToken}")
     private String slackToken;
 
-    private SlackBotService() {
+    public SlackBotService() {
         Database database = new Database();
         commandParsingService = new CommandParsingService(database);
     }
