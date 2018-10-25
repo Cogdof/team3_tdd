@@ -29,9 +29,9 @@ public class CommandParsingServiceTest {
 
     @Test
     public void 봇은_명령어의_입력시_알맞은_길이만큼_받지_않으면_에러메세지를_출력한다() {
-        // add = 5 remove,serach = 3 list,time = 2
-        String resultMessageNotVaildLength = commandParsingService.parseCommand("ID add 호열 123 111 1111");
-        assertTrue(resultMessageNotVaildLength.equalsIgnoreCase("잘못된 입력이 들어왔습니다."));
+        // add = 5 remove,search = 3 list,time = 2
+        String resultMessageNotValidLength = commandParsingService.parseCommand("ID add 호열 123 111 1111");
+        assertTrue(resultMessageNotValidLength.equalsIgnoreCase("잘못된 입력이 들어왔습니다."));
     }
 
     @Test

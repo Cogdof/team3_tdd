@@ -73,7 +73,7 @@ class CommandParsingService {
                 String Male[] = {"남자", "남", "Male", "Men", "male", "man"};
                 String female[] = {"여자", "여", "Female", "Woman", "women", "female"};
 
-                Friend.Gender gender = null;
+                Friend.Gender gender;
 
                 if (Arrays.asList(Male).contains(commandSplitList[4])) {
                     gender = Friend.Gender.MALE;
@@ -100,13 +100,13 @@ class CommandParsingService {
 
             case "find":
 
-                Friend findedFriend = database.find(name);
+                Friend findFriend = database.find(name);
 
-                if (findedFriend == null) {
+                if (findFriend == null) {
                     result = "The friend isn't in the friends list";
                 } else {
-                    result = findedFriend.getName() + " " + findedFriend.getAge();
-                    if (findedFriend.getGender() == Friend.Gender.MALE) {
+                    result = findFriend.getName() + " " + findFriend.getAge();
+                    if (findFriend.getGender() == Friend.Gender.MALE) {
                         result += " 남자";
                     } else {
                         result += " 여자";

@@ -91,14 +91,14 @@ public class DatabaseTest {
         Friend willBeAddedFriend = new Friend("박씨", 21, Friend.Gender.MALE);
         database.add(willBeAddedFriend);
 
-        Friend findedFriend = database.find("박씨");
-        assertTrue(findedFriend.equals(willBeAddedFriend));
+        Friend findFriend = database.find("박씨");
+        assertTrue(findFriend.equals(willBeAddedFriend));
     }
 
     @Test
     public void find_메소드를_친구이름으로_호출할때_해당친구이름이_리스트에없으면_NULL을_반환해야한다() {
-        Friend findedFriend = database.find("송씨");
-        assertNull(findedFriend);
+        Friend findFriend = database.find("송씨");
+        assertNull(findFriend);
     }
 
 }
