@@ -17,6 +17,7 @@ class Database {
     }
 
     public boolean remove(String name) {
+
         if (friendDatabase.containsKey(name)) {
             friendDatabase.remove(name);
             return true;
@@ -28,19 +29,24 @@ class Database {
     public String friendList() {
         friendNameItr = getFriendDatabase().keySet().iterator();
 
-        StringBuilder result = new StringBuilder();
-
-        if (friendDatabase.size() == 0) {
+        if (checkFriendNumberZero()) {
             return "친구가 존재하지 않습니다.";
         }
 
+        StringBuilder result = new StringBuilder();
+        result.append("친구목록\n--------\n");
         while (friendNameItr.hasNext()) {
             String curFriendName = friendNameItr.next();
 
             result.append(curFriendName).append("\n");
         }
+        result.append("--------\n");
 
         return result.toString();
+    }
+
+    public boolean checkFriendNumberZero(){
+        return friendDatabase.size() == 0;
     }
 
     public String add(Friend newFriend) {

@@ -15,16 +15,6 @@ public class DatabaseTest {
         database = new Database();
     }
 
-    // find method tests..
-//    @Test
-//    public void find_메소드를_친구이름으로_호출할때_친구이름이_리스트에있으면_해당_친구의_객체를_반환해야한다(){
-//
-//        Friend willBeAddedFriend = new Friend("근용", 16, Friend.Gender.MALE);
-//        friendDatabase.add(willBeAddedFriend );
-//        Friend returnedFriend= friendDatabase.find("근용");
-//        assertTrue(willBeFriend.equals(returnedFriend));
-//    }
-
     @Test
     public void Add_명령어를_입력했을때__데이터베이스에_정상적으로_입력되었다면_key값이_존재한다() {
         Friend newFriend = new Friend("김씨", 16, Friend.Gender.MALE);
@@ -53,7 +43,6 @@ public class DatabaseTest {
 
         assertEquals("이미 존재하는 사용자 입니다.", result);
         assertNotEquals("이미 존재하는 사용자 입니다.", result2);
-
     }
 
     @Test
@@ -64,7 +53,18 @@ public class DatabaseTest {
         database.add(new Friend("근용", 18, Friend.Gender.MALE));
         String listString = database.friendList();
 
-        assertTrue(listString.equalsIgnoreCase("신홍\n호열\n희수\n근용\n"));
+        assertTrue(listString.equalsIgnoreCase("친구목록\n--------\n신홍\n호열\n희수\n근용\n--------\n"));
+    }
+
+    @Test
+    public void 봇은_친구가_0명이면_checkFriendNumberZero_에서_True_를_반환한다(){
+        assertTrue(database.checkFriendNumberZero());
+    }
+
+    @Test
+    public void 봇은_친구가_0명이_아니면_checkFriendNumberZero_에서_False_를_반환한다(){
+        database.getFriendDatabase().put("신홍", new Friend("신홍", 15, Friend.Gender.MALE));
+        assertFalse(database.checkFriendNumberZero());
     }
 
     @Test
