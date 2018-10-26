@@ -1,6 +1,7 @@
 # team3_tdd
 2018_riot project_TDD work
 
+--
     //@bot add 이름, 나이, 성별  
     //@bot remove 이름  
     //@bot list 친구리스트  
